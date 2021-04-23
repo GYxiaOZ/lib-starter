@@ -1,0 +1,8 @@
+{
+  "source": {
+    "include": ["dist/index.js"],
+    "includePattern": ".+\\.js(x)?$",
+    "excludePattern": ".+\\.d.ts"
+  },
+  "plugins": ["plugins/markdown"]
+}
